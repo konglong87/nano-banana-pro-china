@@ -1,0 +1,17 @@
+{
+  "name": "企业文化",
+  "description": "Corporate culture poster with title at bottom-center, illustration on left. Professional business style.",
+  "base_image": "base.png",
+  "title_position": "底部居中",
+  "illustration_position": "左侧",
+  "font_style": "宋体",
+  "dimensions": {
+    "width": 1280,
+    "height": 720
+  },
+  "prompt_template": "企业文化宣传海报，{title_position}位置用{font_style}字体添加标题\"{title}\"，{illustration_position}区域融入{illustration}元素，整体风格稳重专业，色调以蓝色灰色为主，体现企业价值观和团队精神",
+  "watermark": {
+    "enable": false,
+    "text": ""
+  }
+}

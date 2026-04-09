@@ -1,0 +1,17 @@
+{
+  "name": "产品宣传",
+  "description": "Product announcement poster with title in top-left corner, product illustration in center. Modern minimalist style.",
+  "base_image": "base.png",
+  "title_position": "左上角",
+  "illustration_position": "中央",
+  "font_style": "黑体",
+  "dimensions": {
+    "width": 1024,
+    "height": 1024
+  },
+  "prompt_template": "现代简约风格的产品宣传海报，{title_position}位置用{font_style}字体添加标题\"{title}\"，{illustration_position}区域突出展示{illustration}，背景简洁干净，配色现代时尚，专业商务感",
+  "watermark": {
+    "enable": false,
+    "text": ""
+  }
+}

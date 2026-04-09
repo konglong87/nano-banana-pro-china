@@ -1,0 +1,281 @@
+# .gitignore for nano-banana-pro-china
+# 确保敏感信息和不必要的文件不被提交到Git仓库
+
+# ============================================
+# 敏感信息 (CRITICAL - 绝对不能提交)
+# ============================================
+
+# 环境变量文件 - 包含API keys和tokens
+.env
+
+# 其他可能包含敏感信息的文件
+*.key
+*.pem
+*.p12
+secrets.json
+credentials.json
+config.local.*
+.env.local
+.env.*.local
+
+# ============================================
+# Python
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# Translations
+*.mo
+*.pot
+
+# ============================================
+# Virtual Environment
+# ============================================
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ============================================
+# IDE and Editors
+# ============================================
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+
+# ============================================
+# macOS
+# ============================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ============================================
+# Windows
+# ============================================
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# ============================================
+# Linux
+# ============================================
+
+*~
+.directory
+
+# ============================================
+# Generated Images (User Data)
+# ============================================
+
+# 生成的图片 - 不应该提交到仓库（用户数据）
+materials/raw/*.png
+materials/raw/*.jpg
+materials/raw/*.jpeg
+materials/raw/*.gif
+materials/raw/*.webp
+
+materials/raw_edit/*.png
+materials/raw_edit/*.jpg
+materials/raw_edit/*.jpeg
+materials/raw_edit/*.gif
+materials/raw_edit/*.webp
+
+# 保留目录结构（.gitkeep文件需要提交）
+!materials/raw/.gitkeep
+!materials/raw_edit/.gitkeep
+
+# ============================================
+# Logs and Temporary Files
+# ============================================
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# ============================================
+# Testing
+# ============================================
+
+# Test outputs
+test-results/
+coverage/
+.nyc_output/
+
+# ============================================
+# Build and Dependencies
+# ============================================
+
+# Node modules (if using JS tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# ============================================
+# Documentation
+# ============================================
+
+# Generated documentation
+docs/_build/
+site/
+
+# ============================================
+# Database
+# ============================================
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# Archives
+# ============================================
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================
+# Misc
+# ============================================
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ============================================
+# Special Notes
+# ============================================
+
+# 确保跟踪这些重要文件
+!.gitignore
+!.gitkeep
+!.env.example
+
+# 即使在父目录中有.gitignore，也确保这些规则生效
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.Python
+**/*.so
+**/*.egg
+**/*.egg-info/
+**/.env

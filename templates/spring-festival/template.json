@@ -1,0 +1,17 @@
+{
+  "name": "春节海报",
+  "description": "Spring Festival poster with title at top-center, illustration on right. Traditional Chinese festive style.",
+  "base_image": "base.png",
+  "title_position": "顶部居中",
+  "illustration_position": "右侧",
+  "font_style": "楷体",
+  "dimensions": {
+    "width": 2048,
+    "height": 2048
+  },
+  "prompt_template": "以中国传统春节海报为风格参考，{title_position}位置用{font_style}字体添加标题文字\"{title}\"，{illustration_position}区域添加{illustration}元素，整体色调以红色金色为主，喜庆祥和的氛围，保持传统中式美学",
+  "watermark": {
+    "enable": false,
+    "text": ""
+  }
+}
