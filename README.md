@@ -1,10 +1,10 @@
-# 🎨 nano-banana-pro-china
+# 🎨 nano-banana-pro-china skills
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-**国内可用的 AI 图片生成和编辑工具** | AI Image Generation & Editing Tool for China
+**国内直接可用的 AI 图片生成和编辑工具** | AI Image Generation & Editing Tool for China
 
 通过 Cloudflare Gateway + OpenRouter + Gemini 3 Pro Image，完美解决国内访问问题，无需科学上网。
 
