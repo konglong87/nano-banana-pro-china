@@ -51,13 +51,13 @@
 ## 🔒 安全问题
 
 如果你发现了安全漏洞，请**不要**在公开Issue中报告。
-请发送邮件至：[your-email@example.com]
+请发送邮件至：2235998553@qq.com
 
 ## 📋 开发环境设置
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/nano-banana-pro-china.git
+git clone https://github.com/konglong87/nano-banana-pro-china.git
 cd nano-banana-pro-china
 
 # 创建虚拟环境
@@ -88,8 +88,8 @@ python3 scripts/list_templates.py
 
 ## 📧 联系方式
 
-- 项目维护者：[Your Name]
-- Email：[your-email@example.com]
-- GitHub：[your-username]
+- 项目维护者：konglong87
+- Email：2235998553@qq.com
+- GitHub：konglong87
 
 感谢你的贡献！🎉
